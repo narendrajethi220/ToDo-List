@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/bgImage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 10% auto;
+  padding: 0.5rem;
+}
+
+.box .header {
+  color: white;
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #60a5fa, #818cf8);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.box-list p {
+  color: antiquewhite;
+  font-size: large;
+  border-bottom: 2.5px solid #be123c;
+}
+
+.item input[type="checkbox"],
+.item p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.2rem;
+}
+
+form input[type="text"] {
+  border: 2px solid #4f46e5;
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 1rem 6rem;
+  font-size: medium;
+}
+form button[type="submit"] {
+  padding: 0.2rem 0.5rem;
+  border-radius: 20%;
+  font-size: x-large;
+  font-weight: bold;
+  color: #22c55e;
+}
+form button[type="submit"]:hover {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
+
+/* .item input[type="checkbox"]:checked + p {
+    text-decoration: line-through;
+  } */

@@ -2,16 +2,22 @@
 <html>
   <head>
     <title>ToDo List</title>
-  </head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>  
+</head>
   <body>
     <div class="box">
-      <h1>ToDo List</h1>
+      <div class="header">
+        <h1>ToDo List</h1>
     </div>
-    <div class="box">
+    <div class="box-list">
         <% for(var i=0; i<ejes.length; i++){%>
-             <p><%=ejes[i]%> </p>
+            <div class="item">
+              <input type="checkbox">
+              <p><%=ejes[i]%> </p>
+            </div>
         <%}%> 
-  
+    </div>
       <form action="/" method="POST">
         <input type="text" name="ele1" placeholder="Enter the task" />
         <button type="submit">+</button>
