@@ -1,6 +1,7 @@
 # Todo List Project
+![image](https://github.com/narendrajethi220/ToDo-List-Project/assets/55850738/cb6820b0-d6d5-4fb2-9a78-aab7af697673)
 
-This Todo List project is a simple web application built using Express.js, EJS, JavaScript, and CSS. It allows users to add tasks, mark them as completed with a checkbox, and visually indicates completed tasks with a line-through style.
+This Todo List project is a simple web application built using Express.js, EJS, JavaScript, and CSS. It allows users to add tasks, mark them as completed with a checkbox, and visually indicate completed tasks with a line-through style.
 
 ## Features
 
@@ -81,8 +82,5 @@ Please ensure your code follows best practices, and includes relevant documentat
 For any questions or feedback, feel free to contact the project owner:
 
 - [Narendra Singh Jethi](https://github.com/narendrajethi220)
-
-Screenshot of the project =>
-![image](https://github.com/narendrajethi220/ToDo-List-Project/assets/55850738/cb6820b0-d6d5-4fb2-9a78-aab7af697673)
-
+- 
 Enjoy exploring!
